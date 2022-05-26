@@ -1,0 +1,66 @@
+.App {
+  font-family: 'Inter';
+  font-style: normal;
+  display: flex;
+ flex-direction: column;
+align-items: center;
+width: 100vw;
+height: 60vh;
+background: #FFFFFF;
+
+}
+
+.logo{margin-top: 25px;
+  margin-bottom: auto;
+  color: #09032F;
+}
+
+.formContent{
+
+width: 20%;
+height: 30%;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+  justify-content: center;
+  background: #FFFFFF;
+border: 1px solid #EDEDED;
+box-shadow: 0px 24.4561px 29.2013px rgba(0, 0, 0, 0.0259551), 0px 11.873px 14.1767px rgba(0, 0, 0, 0.0279269), 0px 5.82036px 6.94968px rgba(0, 0, 0, 0.0351747);
+border-radius: 24px;
+padding: 25px 30px 40px;
+}
+
+.formContent button{
+  background: #09032F;
+border-radius: 8px;
+font-size: 16px;
+border: 1px solid #EDEDED;
+color: #FFFFFF;
+margin-top: 20px;
+width: 100%;
+padding: 15px 0;
+}
+
+.formContent input{
+  width: 100%;
+  background: #FFFFFF;
+border: 1px solid #E9E9E9;
+border-radius: 8px;
+padding: 15px 5px 15px 5px;
+margin-top: 15px;
+}
+.formContent input:focus{
+   outline: none;
+}
+.message{
+ 
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+
+text-align: center;
+
+color: #000000;
+}
+
